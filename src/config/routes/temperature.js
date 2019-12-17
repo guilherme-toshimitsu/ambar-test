@@ -1,7 +1,7 @@
 import Temperature from '@pages/Temperature';
 
 const route = {
-  path: '/seller',
+  path: '/temperature',
   component: Temperature,
   exact: true,
 };

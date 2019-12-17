@@ -1,6 +1,4 @@
-# IntegraMaster Admin
-
-Responsável pela visualização e status do Projeto Ducktales
+# TESTE AMBAR
 
 # Getting Started
 

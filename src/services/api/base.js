@@ -13,7 +13,7 @@ const getApiConfig = () => ({
 
 const base = (baseURL, config) => {
   const api = axios.create({
-    mode: 'cors',
+    // mode: 'cors',
     baseURL,
     ...config,
   });

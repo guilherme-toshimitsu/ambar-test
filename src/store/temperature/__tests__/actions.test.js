@@ -11,7 +11,8 @@ describe('reducer Actions', () => {
   it('Should GET TEMPERATURE START', () => {
     const getTemperature = actions[actionTypes.GET_TEMPERATURE_START];
     const value = getTemperature({ test: 'test' }, {});
-    expect(value).toEqual({ test: 'test', isLoading: true });
+    expect(value).toHaveProperty('test', 'test');
+    expect(value).toHaveProperty('isLoading', true);
   });
 
   it('Should GET TEMPERATURE START SUCCESS', () => {

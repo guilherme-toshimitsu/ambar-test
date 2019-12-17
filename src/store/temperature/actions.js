@@ -10,6 +10,11 @@ export default {
   [actions.GET_TEMPERATURE_START]: state => ({
     ...state,
     isLoading: true,
+    main: {},
+    weather: [],
+    minTemperature: 0,
+    maxTemperature: 99,
+    name: '',
   }),
 
   [actions.GET_TEMPERATURE_SUCCESS]: (state, data) => ({
@@ -19,6 +24,7 @@ export default {
     main: data.main,
     minTemperature: data.minTemperature,
     maxTemperature: data.maxTemperature,
+    name: data.name,
     lastUpdated: new Date(),
   }),
 

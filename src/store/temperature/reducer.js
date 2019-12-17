@@ -7,7 +7,6 @@ const initialState = {
   isLoading: false,
   minTemperature: 0,
   maxTemperature: 99,
-  data: {},
   lastUpdated: null,
 };
 

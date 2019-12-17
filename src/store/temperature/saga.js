@@ -18,6 +18,7 @@ const getTemperature = params => dispatch => {
         maxTemperature: data.main.temp_max,
         weather: data.weather,
         main: data.main,
+        name: data.name,
       });
     })
     .catch(err =>

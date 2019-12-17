@@ -5,9 +5,11 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
+      <div
+        class="Home-buttonsContainer-1"
+      >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained Home-button-2 MuiButton-containedPrimary"
           tabindex="0"
           type="button"
         >
@@ -21,7 +23,7 @@ Object {
           />
         </button>
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained Home-button-2 MuiButton-containedPrimary"
           tabindex="0"
           type="button"
         >
@@ -35,7 +37,7 @@ Object {
           />
         </button>
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained Home-button-2 MuiButton-containedPrimary"
           tabindex="0"
           type="button"
         >
@@ -48,16 +50,24 @@ Object {
             class="MuiTouchRipple-root"
           />
         </button>
+      </div>
+      <div
+        class="MuiPaper-root MuiPaper-elevation3 WeatherViewer-paper-34 MuiPaper-rounded"
+      >
         <div
-          style="margin-top: 150px;"
-        />
+          class="WeatherViewer-cardContainer-36"
+        >
+          Clique em um Botão escolher a cidade
+        </div>
       </div>
     </div>
   </body>,
   "container": <div>
-    <div>
+    <div
+      class="Home-buttonsContainer-1"
+    >
       <button
-        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained Home-button-2 MuiButton-containedPrimary"
         tabindex="0"
         type="button"
       >
@@ -71,7 +81,7 @@ Object {
         />
       </button>
       <button
-        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained Home-button-2 MuiButton-containedPrimary"
         tabindex="0"
         type="button"
       >
@@ -85,7 +95,7 @@ Object {
         />
       </button>
       <button
-        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained Home-button-2 MuiButton-containedPrimary"
         tabindex="0"
         type="button"
       >
@@ -98,9 +108,15 @@ Object {
           class="MuiTouchRipple-root"
         />
       </button>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation3 WeatherViewer-paper-34 MuiPaper-rounded"
+    >
       <div
-        style="margin-top: 150px;"
-      />
+        class="WeatherViewer-cardContainer-36"
+      >
+        Clique em um Botão escolher a cidade
+      </div>
     </div>
   </div>,
   "debug": [Function],
