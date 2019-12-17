@@ -1,6 +1,7 @@
 # TESTE AMBAR
 
 # Getting Started
+Create an .ENV (can be used to mock tests on Apis with mock=true)
 
 ## Instalation
 
