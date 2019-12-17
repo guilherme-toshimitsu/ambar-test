@@ -1,0 +1,624 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TablePagination> Route Component Loader renders 1`] = `
+<DocumentFragment>
+  <table
+    class="MuiTable-root"
+  >
+    <tfoot
+      class="MuiTableFooter-root"
+    >
+      <tr
+        class="MuiTableRow-root MuiTableRow-footer"
+      >
+        <td
+          class="MuiTableCell-root MuiTableCell-footer"
+          colspan="7"
+        >
+          <div
+            class="TablePagination-buttonsContainer-9"
+          >
+            <div
+              class="TablePagination-previous-10"
+            />
+            <div
+              class="TablePagination-current-11"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-current"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  1
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <div
+              class="TablePagination-next-12"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-next"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  2
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-next-arrow"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  &gt;
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-last"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  &gt;&gt;
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`<TablePagination> Route Component Loader renders in a finalPage 1`] = `
+<DocumentFragment>
+  <table
+    class="MuiTable-root"
+  >
+    <tfoot
+      class="MuiTableFooter-root"
+    >
+      <tr
+        class="MuiTableRow-root MuiTableRow-footer"
+      >
+        <td
+          class="MuiTableCell-root MuiTableCell-footer"
+          colspan="7"
+        >
+          <div
+            class="TablePagination-buttonsContainer-139"
+          >
+            <div
+              class="TablePagination-previous-140"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-first"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  &lt;&lt;
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-prev-arrow"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  &lt;
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-prev"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  2
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <div
+              class="TablePagination-current-141"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-current"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  3
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <div
+              class="TablePagination-next-142"
+            />
+          </div>
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`<TablePagination> Route Component Loader renders in a midle page 1`] = `
+<DocumentFragment>
+  <table
+    class="MuiTable-root"
+  >
+    <tfoot
+      class="MuiTableFooter-root"
+    >
+      <tr
+        class="MuiTableRow-root MuiTableRow-footer"
+      >
+        <td
+          class="MuiTableCell-root MuiTableCell-footer"
+          colspan="7"
+        >
+          <div
+            class="TablePagination-buttonsContainer-74"
+          >
+            <div
+              class="TablePagination-previous-75"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-first"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  &lt;&lt;
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-prev-arrow"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  &lt;
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-prev"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  1
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <div
+              class="TablePagination-current-76"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-current"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  2
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <div
+              class="TablePagination-next-77"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-next"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  3
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-next-arrow"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  &gt;
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-last"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  &gt;&gt;
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`<TablePagination> Route Component Loader simulate clicks 1`] = `
+<DocumentFragment>
+  <table
+    class="MuiTable-root"
+  >
+    <tfoot
+      class="MuiTableFooter-root"
+    >
+      <tr
+        class="MuiTableRow-root MuiTableRow-footer"
+      >
+        <td
+          class="MuiTableCell-root MuiTableCell-footer"
+          colspan="7"
+        >
+          <div
+            class="TablePagination-buttonsContainer-204"
+          >
+            <div
+              class="TablePagination-previous-205"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-first"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  &lt;&lt;
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-prev-arrow"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  &lt;
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-prev"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  1
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <div
+              class="TablePagination-current-206"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-current"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  2
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <div
+              class="TablePagination-next-207"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-next"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  3
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-next-arrow"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  &gt;
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-last"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  &gt;&gt;
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`<TablePagination> Route Component Loader simulate clicks 2`] = `
+<DocumentFragment>
+  <table
+    class="MuiTable-root"
+  >
+    <tfoot
+      class="MuiTableFooter-root"
+    >
+      <tr
+        class="MuiTableRow-root MuiTableRow-footer"
+      >
+        <td
+          class="MuiTableCell-root MuiTableCell-footer"
+          colspan="7"
+        >
+          <div
+            class="TablePagination-buttonsContainer-269"
+          >
+            <div
+              class="TablePagination-previous-270"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-first"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  &lt;&lt;
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-prev-arrow"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  &lt;
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-prev"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  1
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <div
+              class="TablePagination-current-271"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-current"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  2
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <div
+              class="TablePagination-next-272"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-next"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  3
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-next-arrow"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  &gt;
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text"
+                data-testid="table-pagination-last"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  &gt;&gt;
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+</DocumentFragment>
+`;

@@ -1,0 +1,4 @@
+src/serviceWorker.js
+src/setupTests.js
+/**/__tests__/*
+webpack.config.js
