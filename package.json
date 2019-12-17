@@ -128,6 +128,7 @@
       "@routes": "<rootDir>/src/config/routes/",
       "@services/(.*)$": "<rootDir>/src/services/$1",
       "@store": "<rootDir>/src/store/",
+      "@store/(.*)$": "<rootDir>/src/store/$1",
       "@utils/(.*)$": "<rootDir>/src/commons/utils/$1"
     }
   }

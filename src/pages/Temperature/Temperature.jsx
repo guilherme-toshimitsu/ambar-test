@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/styles';
 import { useSelector } from 'react-redux';
-import { Paper, CircularProgress, Typography, Button } from '@material-ui/core';
+import { Paper, Typography, Button } from '@material-ui/core';
 
 import styles from './styles';
 
@@ -26,7 +26,7 @@ const Temperature = ({ history }) => {
         </>
       )}
       <div className={classes.buttonContainer}>
-        <Button onClick={() => history.push('/')} color="primary" variant="contained">
+        <Button data-testid="go-to-home" onClick={() => history.push('/')} color="primary" variant="contained">
           {'Voltar'}
         </Button>
       </div>

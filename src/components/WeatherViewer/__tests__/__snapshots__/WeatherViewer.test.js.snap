@@ -1,0 +1,290 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WeatherViewer> Route Component Loader renders default loading 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiPaper-root MuiPaper-elevation3 WeatherViewer-paper-1 MuiPaper-rounded"
+  >
+    <div
+      class="WeatherViewer-cardContainer-3"
+    >
+      Clique em um Botão escolher a cidade
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<WeatherViewer> Route Component Loader renders with icon but not parsable 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiPaper-root MuiPaper-elevation3 WeatherViewer-paper-142 MuiPaper-rounded"
+  >
+    <div
+      class="WeatherViewer-cardContainer-144"
+    >
+      <div
+        class="WeatherViewer-cardData-145"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1"
+        >
+          Local: 
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1"
+        >
+          Temperatura: undefined ° Celsius
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1"
+        >
+          Temperatura Minima: 0 ° Celsius
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1"
+        >
+          Temperatura Máxima: 99 ° Celsius
+        </p>
+        <div
+          class="WeatherViewer-actionContainer-146"
+        >
+          <div
+            class="WeatherViewer-iconContainer-147"
+          >
+            <img
+              alt="icone"
+              class="WeatherViewer-icon-148"
+            />
+          </div>
+          <div
+            class="WeatherViewer-buttonContainer-149"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+              data-testid="go-to-temperature"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Ir Para: 
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<WeatherViewer> Route Component Loader renders with icon jpg 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiPaper-root MuiPaper-elevation3 WeatherViewer-paper-354 MuiPaper-rounded"
+  >
+    <div
+      class="WeatherViewer-cardContainer-356"
+    >
+      <div
+        class="WeatherViewer-cardData-357"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1"
+        >
+          Local: 
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1"
+        >
+          Temperatura: undefined ° Celsius
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1"
+        >
+          Temperatura Minima: 0 ° Celsius
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1"
+        >
+          Temperatura Máxima: 99 ° Celsius
+        </p>
+        <div
+          class="WeatherViewer-actionContainer-358"
+        >
+          <div
+            class="WeatherViewer-iconContainer-359"
+          >
+            <img
+              alt="icone"
+              class="WeatherViewer-icon-360"
+              src="bla.jpg"
+            />
+          </div>
+          <div
+            class="WeatherViewer-buttonContainer-361"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+              data-testid="go-to-temperature"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Ir Para: 
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<WeatherViewer> Route Component Loader renders with icon png 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiPaper-root MuiPaper-elevation3 WeatherViewer-paper-248 MuiPaper-rounded"
+  >
+    <div
+      class="WeatherViewer-cardContainer-250"
+    >
+      <div
+        class="WeatherViewer-cardData-251"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1"
+        >
+          Local: 
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1"
+        >
+          Temperatura: undefined ° Celsius
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1"
+        >
+          Temperatura Minima: 0 ° Celsius
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1"
+        >
+          Temperatura Máxima: 99 ° Celsius
+        </p>
+        <div
+          class="WeatherViewer-actionContainer-252"
+        >
+          <div
+            class="WeatherViewer-iconContainer-253"
+          >
+            <img
+              alt="icone"
+              class="WeatherViewer-icon-254"
+              src="bla.png"
+            />
+          </div>
+          <div
+            class="WeatherViewer-buttonContainer-255"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+              data-testid="go-to-temperature"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Ir Para: 
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<WeatherViewer> Route Component Loader renders without icon 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiPaper-root MuiPaper-elevation3 WeatherViewer-paper-36 MuiPaper-rounded"
+  >
+    <div
+      class="WeatherViewer-cardContainer-38"
+    >
+      <div
+        class="WeatherViewer-cardData-39"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1"
+        >
+          Local: 
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1"
+        >
+          Temperatura: undefined ° Celsius
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1"
+        >
+          Temperatura Minima: 0 ° Celsius
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1"
+        >
+          Temperatura Máxima: 99 ° Celsius
+        </p>
+        <div
+          class="WeatherViewer-actionContainer-40"
+        >
+          <div
+            class="WeatherViewer-iconContainer-41"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Não possui Ícone
+            </p>
+          </div>
+          <div
+            class="WeatherViewer-buttonContainer-43"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+              data-testid="go-to-temperature"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Ir Para: 
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

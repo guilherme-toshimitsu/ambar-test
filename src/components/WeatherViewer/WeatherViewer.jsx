@@ -51,7 +51,12 @@ const WeatherViewer = ({ main, weather, isLoading, name, history }) => {
                     )}
                   </div>
                   <div className={classes.buttonContainer}>
-                    <Button onClick={() => history.push('/temperature')} color="primary" variant="contained">
+                    <Button
+                      onClick={() => history.push('/temperature')}
+                      color="primary"
+                      variant="contained"
+                      data-testid={'go-to-temperature'}
+                    >
                       {`Ir Para: ${name}`}
                     </Button>
                   </div>

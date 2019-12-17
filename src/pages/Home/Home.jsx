@@ -24,6 +24,7 @@ const Home = ({ history }) => {
           onClick={() => dispatch(actions.getTemperature({ lat: 40.73061, lon: -73.935242 }))}
           color="primary"
           variant="contained"
+          data-testid={'go-to-ny'}
         >
           NY
         </Button>
@@ -33,6 +34,7 @@ const Home = ({ history }) => {
           onClick={() => dispatch(actions.getTemperature({ lat: -23.54, lon: -46.63 }))}
           color="primary"
           variant="contained"
+          data-testid={'go-to-sp'}
         >
           SP
         </Button>
@@ -42,6 +44,7 @@ const Home = ({ history }) => {
           onClick={() => dispatch(actions.getTemperature({ lat: 35.652832, lon: 139.839478 }))}
           color="primary"
           variant="contained"
+          data-testid={'go-to-tokyo'}
         >
           TOKYO
         </Button>

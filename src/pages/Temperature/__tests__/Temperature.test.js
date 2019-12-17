@@ -1,9 +1,9 @@
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
-import Home from '../';
+import Temperature from '../';
 import * as Redux from 'react-redux';
 import configureStore from '@store';
-import { actions } from '@store/temperature/';
+
 import { createStore, applyMiddleware } from 'redux';
 import ReduxThunkTester from 'redux-thunk-tester';
 import thunk from 'redux-thunk';
@@ -17,7 +17,7 @@ const createMockStore = () => {
   return { reduxThunkTester, store };
 };
 
-describe('<Home> Home Page Container', () => {
+describe('<Temperature> Home Page Container', () => {
   afterEach(() => {
     jest.clearAllMocks();
   });
@@ -26,9 +26,22 @@ describe('<Home> Home Page Container', () => {
     const Store = configureStore();
     const container = render(
       <Redux.Provider store={Store}>
-        <Home />
+        <Temperature history={{ push: () => {} }} />
       </Redux.Provider>
     );
     expect(container).toMatchSnapshot();
+  });
+
+  it('renders', () => {
+    jest.spyOn(Redux, 'useSelector').mockImplementation(() => ({ main: { test: 'test' }, name: 'test' }));
+    const Store = configureStore();
+    const container = render(
+      <Redux.Provider store={Store}>
+        <Temperature history={{ push: () => {} }} />
+      </Redux.Provider>
+    );
+
+    const button = container.getByTestId('go-to-home');
+    fireEvent.click(button);
   });
 });
