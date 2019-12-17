@@ -1,5 +1,5 @@
 import { mockBase, getMockResponse, envConfig } from '../mockinterceptors';
-describe('Seller apis', () => {
+describe('mock interceptors apis', () => {
   const oldConfig = envConfig;
 
   beforeEach(() => {

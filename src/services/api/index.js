@@ -1,5 +1,5 @@
-import seller from './endpoints/seller';
+import temperature from './endpoints/temperature';
 
 export default {
-  seller,
+  temperature,
 };

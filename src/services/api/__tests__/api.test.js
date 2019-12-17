@@ -1,6 +1,6 @@
 import api from '../api';
 
-describe('Seller apis', () => {
+describe('Api tests', () => {
   const OLD_ENV = process.env;
 
   beforeEach(() => {

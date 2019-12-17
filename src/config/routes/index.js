@@ -1,8 +1,8 @@
 import settings from './settings';
 import Home from './home';
-import Seller from './seller';
+import Temperature from './temperature';
 
-const routes = [Home, Seller];
+const routes = [Home, Temperature];
 
 export default routes;
 export { settings };

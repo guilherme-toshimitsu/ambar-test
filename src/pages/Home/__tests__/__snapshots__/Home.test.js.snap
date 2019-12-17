@@ -14,7 +14,7 @@ Object {
           <span
             class="MuiButton-label"
           >
-            GoToSeller
+            NY
           </span>
           <span
             class="MuiTouchRipple-root"
@@ -28,7 +28,21 @@ Object {
           <span
             class="MuiButton-label"
           >
-            goToSellerId
+            SP
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            TOKYO
           </span>
           <span
             class="MuiTouchRipple-root"
@@ -37,20 +51,6 @@ Object {
         <div
           style="margin-top: 150px;"
         />
-        <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-text"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiButton-label"
-          >
-            APICALL
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
       </div>
     </div>
   </body>,
@@ -64,7 +64,7 @@ Object {
         <span
           class="MuiButton-label"
         >
-          GoToSeller
+          NY
         </span>
         <span
           class="MuiTouchRipple-root"
@@ -78,7 +78,21 @@ Object {
         <span
           class="MuiButton-label"
         >
-          goToSellerId
+          SP
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          TOKYO
         </span>
         <span
           class="MuiTouchRipple-root"
@@ -87,20 +101,6 @@ Object {
       <div
         style="margin-top: 150px;"
       />
-      <button
-        class="MuiButtonBase-root MuiButton-root MuiButton-text"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiButton-label"
-        >
-          APICALL
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
     </div>
   </div>,
   "debug": [Function],

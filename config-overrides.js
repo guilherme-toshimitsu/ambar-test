@@ -29,7 +29,7 @@ const babelPlugins = [
       '@pages': './src/pages',
       '@routes': './src/config/routes',
       '@services': './src/services',
-      // "@svg": "svg-inline-loader?classPrefix!./src/assets/images/icons",
+      '@store': './src/store',
       '@utils': './src/commons/utils/',
     },
   },

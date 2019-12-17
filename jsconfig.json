@@ -4,14 +4,15 @@
     "paths": {
       "@api": ["src/services/api"],
       "@assets/*": ["src/assets/"],
-      "@commons": ["src/commons/"],
-      "@components": ["src/components"],
+      "@commons/*": ["src/commons/*"],
+      "@components/*": ["src/components/*"],
       "@config": ["src/config"],
       "@fonts": ["src/assets/fonts"],
       "@images": ["src/assets/images"],
       "@pages": ["src/pages"],
       "@routes": ["src/config/routes"],
       "@services": ["src/services"],
+      "@store/*": ["src/store/*"],
       "@utils": ["src/commons/utils/"]
     }
   }
